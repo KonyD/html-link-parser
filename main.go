@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-    htmlFileName := flag.String("html", "ex1.html", "html file name")
+    htmlFileName := flag.String("html", "index.html", "html file name")
 	flag.Parse()
 
 	file, err := os.ReadFile(*htmlFileName)
